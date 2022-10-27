@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/gimgihun/AIP/mlruns/1/ba3a67acecd04728af848f1007ca68c8/artifacts
+deleted_time: 1666866265268
+end_time: 1666866151803
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: deleted
+run_id: ba3a67acecd04728af848f1007ca68c8
+run_name: overjoyed-slug-911
+run_uuid: ba3a67acecd04728af848f1007ca68c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1666866151799
+status: 4
+tags: []
+user_id: gimgihun
