@@ -1,7 +1,0 @@
-mlflow
-cloudpickle==2.0.0
-dill==0.3.4
-ipython==8.4.0
-pathlib==1.0.1
-torch==1.12.1
-tqdm==4.64.1
