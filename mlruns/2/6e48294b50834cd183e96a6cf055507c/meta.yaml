@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/gimgihun/AIP/mlruns/2/6e48294b50834cd183e96a6cf055507c/artifacts
+end_time: 1666879498062
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+run_id: 6e48294b50834cd183e96a6cf055507c
+run_name: overjoyed-slug-911
+run_uuid: 6e48294b50834cd183e96a6cf055507c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1666879466533
+status: 3
+tags: []
+user_id: gimgihun
