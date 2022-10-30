@@ -1,0 +1,6 @@
+artifact_location: file:///Users/gimgihun/AIP/mlruns/2
+creation_time: 1667032890907
+experiment_id: '2'
+last_update_time: 1667032890907
+lifecycle_stage: active
+name: mnist
