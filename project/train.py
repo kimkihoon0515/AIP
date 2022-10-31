@@ -71,6 +71,7 @@ def train(args):
   experiment = mlflow.get_experiment_by_name(experiment_name)
 
   mlflow.set_tracking_uri('http://127.0.0.1:5000') # 로컬 서버에 실행을 기록하기 위해 함수 호출
+  mlflow.set_experiment(experiment_name) # 실험 
   #mlflow.set_tag("mlflow.runName","practice")
 
   train_loss_list = []
@@ -81,10 +82,11 @@ def train(args):
 
   total_batch = len(train_loader)
 
+  epochs = args.epochs
 
   best_accuracy = 0
-  with mlflow.start_run(experiment_id=experiment.experiment_id,run_name="boom"):
-    for epoch in range(args.epochs):
+  with mlflow.start_run(run_name="boom"):
+    for epoch in range(epochs):
         cost=0
         model.train()
         train_accuracy = 0
@@ -126,7 +128,9 @@ def train(args):
 
         avg_cost = cost / total_batch
         accuracy = 100*correct/total
-        
+
+        train_loss_list.append(train_loss)
+        train_acc_list.append(train_accuracy)
         val_loss_list.append(avg_cost.detach().numpy())
         val_acc_list.append(accuracy)
 
