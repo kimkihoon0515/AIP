@@ -6,7 +6,7 @@ svc = bentoml.Service('mnist_clf', runners=[ mnist_runner ])
 
 input_spec = bentoml.io.NumpyNdarray(
     dtype="float32",
-    shape=[-1, 1, 28, 28],
+    shape=[-1,1,28,28],
     enforce_shape=True,
     enforce_dtype=True,
 )

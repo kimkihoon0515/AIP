@@ -1,0 +1,6 @@
+artifact_location: file:///home/khkim/aip/AIP/mlruns/1
+creation_time: 1667350371693
+experiment_id: '1'
+last_update_time: 1667350371693
+lifecycle_stage: active
+name: chaos_AIP
